@@ -1,0 +1,15 @@
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\bin\Debug\vidPlayer.exe.config
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\bin\Debug\vidPlayer.exe
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\bin\Debug\vidPlayer.pdb
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\vidPlayer.csprojAssemblyReference.cache
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\MainWindow.g.cs
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\App.g.cs
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\vidPlayer_MarkupCompile.cache
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\vidPlayer_MarkupCompile.lref
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\MainWindow.baml
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\vidPlayer.g.resources
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\vidPlayer.Properties.Resources.resources
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\vidPlayer.csproj.GenerateResource.cache
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\vidPlayer.csproj.CoreCompileInputs.cache
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\vidPlayer.exe
+U:\cs3500\VideoPlayer\vidPlayer\vidPlayer\obj\Debug\vidPlayer.pdb

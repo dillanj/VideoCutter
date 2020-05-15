@@ -1,0 +1,53 @@
+﻿<Window x:Name="No_Name" x:Class="vidPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:vidPlayer"
+        mc:Ignorable="d"
+        Title="MediaPlayer" Height="800" Width="1200"  MinHeight="450" MinWidth="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF123864" Offset="0"/>
+                <GradientStop Color="#FFCFE5FF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="19*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Upload Time Stamps" HorizontalAlignment="Left" Margin="841,664,0,0" VerticalAlignment="Top" Width="120" Click="UploadTimeStamps" Grid.Column="1" Foreground="White" Cursor="Hand" BorderBrush="#FF0669FF">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0A74FF" Offset="1"/>
+                    <GradientStop Color="#FF1492FF"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <ComboBox x:Name="TimesCombo" HorizontalAlignment="Left" Margin="841,698,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1" Background="#FFFF0C0C" BorderBrush="White"/>
+        <Button  Content="Video" HorizontalAlignment="Left" Margin="62,664,0,0" VerticalAlignment="Top" Width="76" Click="UploadVideo" Foreground="White" BorderBrush="#FF0973FF" Cursor="Hand">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF076DFF" Offset="1"/>
+                    <GradientStop Color="#FF1592FF"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+
+        <MediaElement Name="mePlayer" LoadedBehavior="Manual" Margin="10,27,10,205" Grid.ColumnSpan="2" />
+        <StackPanel Margin="237,641,339,-281" Grid.Column="1">
+
+            <Label x:Name="lblStatus" Content="Not playing..." HorizontalContentAlignment="Center" Margin="5" />
+            <WrapPanel HorizontalAlignment="Center" Margin="152,0,147,0" Width="154">
+                <Button x:Name="btnPlay" Click="btnPlay_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                    <Image x:Name="PlayPause" Source="Play.png" Height="57" Width="67" RenderTransformOrigin="0.635,0.5" Cursor="Hand" />
+                </Button>
+                <Button x:Name="skip" Content="Skip" Width="76" Height="27" Click="skip_Click"/>
+
+            </WrapPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>
